@@ -1,0 +1,11 @@
+.main-container{
+    /* align-items: center; */
+    /* align-content: center; */
+}
+.container{
+    text-align: center;
+    border: 1px solid black;
+    width: 350px;
+    
+    margin: auto;
+}
