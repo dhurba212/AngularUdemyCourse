@@ -2,11 +2,16 @@
   <div class="container">
     <h1>Typing Challenge</h1>
 
-    <p>{{lorem}}</p>
+    <div>
+      <span [class]="compare(letter,typedByUser[i])" *ngFor="let letter of randomText.split('');let i=index;"
+      >{{letter}}</span>
+    </div>
+    <input (input)="onInput($event.target.value)">
 
-    <input>
-
-    <h3>Success!</h3>
+    <div class="success-message" *ngIf="randomText==typedByUser">
+      <h3 >Success!</h3>
+    </div>
+    
   </div>
   
 </div>

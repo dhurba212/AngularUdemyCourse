@@ -9,3 +9,18 @@
     
     margin: auto;
 }
+input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pending{
+    color: grey;
+}
+.correct{
+    color: green;
+    font-weight: bold;
+}
+.incorrect{
+    color: red;
+    font-weight: bold;
+}
