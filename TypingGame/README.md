@@ -28,3 +28,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## npm install
 faker:
 installed faker to gernerate reandom text
+
+## Deployed on now.sh(to deploy on now.sh follow steps below on cli)
+```
+ npm install -g now
+ now login
+ now
+```
+https://typing-game-gamma.vercel.app/
